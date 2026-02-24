@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>module 3</title>
+    </head>
+    <body>
+        <h2>My Favorite Song</h2>
+
+
+<audio controls autoplay muted preload="metadata">
+    <source src="preview.mp3" type="audio/ogg">
+    Your browser does not support the audio element.
+</audio>
+
+<br><br>
+
+<audio controls loop preload="auto">
+    <source src="preview.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<br><br>
+
+<p>Preload = "none"</p>
+<audio controls preload="none">
+    <source src="preview.mp3" type="audio/mpeg">
+</audio>
+
+<p>Preload = "metadata"</p>
+<audio controls preload="metadata">
+    <source src="preview.mp3" type="audio/mpeg">
+</audio>
+
+<p>Preload = "auto"</p>
+<audio controls preload="auto">
+    <source src="preview.mp3" type="audio/mpeg">
+</audio>
+
+<h2>My Favorite Video</h2>
+
+<video width="400" controls poster="thumbnail.jpg">
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<br><br>
+
+
+<video width="400" autoplay muted loop>
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<h2>Embedded Content</h2>
+
+<iframe 
+    width="560" 
+    height="315" 
+    src="https://youtu.be/1ex_bNIFR1A?si=Sx_DKboI1RSLiCWp" 
+    title="YouTube video player"
+    frameborder="0" 
+    allowfullscreen>
+</iframe>
+
+<br><br>
+
+<iframe
+    width="560"
+    height="315"
+    src="https://www.google.com/maps?q=Petra,+Jordan&output=embed"
+    title="Google Maps location"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy">
+</iframe>
+    </body>
+</html>
